@@ -21,7 +21,7 @@ bot.respondTo('send', (message, channel, user) =>
 	({
 		url: 'https://slack.com/api/files.upload&token=xoxb-350804903105-363248128663-OVSKPjvAQgwdTFNghF1ngV5C&channels=projet7test-bots&content=test',
 		data: {},
-		headers: {}
+		headers: {"Content-type", "application/x-www-form-urlencoded"}
 	},
 	function(err, res, body)
 	{
