@@ -1,6 +1,6 @@
 'use strict';
 
-let Bot = require('./Bot');
+let Bot = require('./bot.js');
 
 const bot = new Bot({
 	token: 'xoxb-350804903105-370590983078-qaUhkBDMGcwKQzseGmwXlgGH',
