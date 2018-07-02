@@ -1,5 +1,5 @@
 'use strict';
-let Bot = require('./Bot');
+let Bot = require('./bot.js');
 
 const bot = new Bot(
 {
